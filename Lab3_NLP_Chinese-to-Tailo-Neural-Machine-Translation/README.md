@@ -11,7 +11,7 @@ The main purpose of this experiment is to establish a Chinese-to-Tailo translati
 
 File Discription
 -
-1. code
+1. Code
   - trainer.py : Main code for training and testing.
   - trainer.ipynb : Main code on Colab for training and testing.
 2. Result
