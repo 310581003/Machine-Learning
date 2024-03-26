@@ -1,0 +1,113 @@
+----------------------------------------------------------
+-                    Hyperparameters                     -
+----------------------------------------------------------
+>> Epoch :                  first stage :15 | second stage :85
+>> Optimizer :              Adam
+>> Learning rate :          0.0035
+>> Loss func :              Cross_entropy
+>> Batch size :             200
+----------------------------------------------------------
+-                    Training......                      -
+----------------------------------------------------------
+>> Found 581574 images for training ...
+
+>>> Feature extraction...
+>>> Start training... 
+epoch 1 | Train loss:0.0154 | Train acc:23.95 | Valid loss:0.0140 | Valid acc:30.28
+epoch 2 | Train loss:0.0151 | Train acc:25.60 | Valid loss:0.0138 | Valid acc:30.99
+epoch 3 | Train loss:0.0150 | Train acc:25.68 | Valid loss:0.0138 | Valid acc:30.91
+epoch 4 | Train loss:0.0150 | Train acc:25.69 | Valid loss:0.0138 | Valid acc:30.83
+epoch 5 | Train loss:0.0150 | Train acc:25.65 | Valid loss:0.0138 | Valid acc:31.12
+epoch 6 | Train loss:0.0150 | Train acc:25.69 | Valid loss:0.0138 | Valid acc:31.14
+epoch 7 | Train loss:0.0150 | Train acc:25.64 | Valid loss:0.0138 | Valid acc:31.10
+epoch 8 | Train loss:0.0150 | Train acc:25.71 | Valid loss:0.0138 | Valid acc:31.00
+epoch 9 | Train loss:0.0150 | Train acc:25.70 | Valid loss:0.0138 | Valid acc:30.92
+epoch10 | Train loss:0.0150 | Train acc:25.68 | Valid loss:0.0138 | Valid acc:31.02
+epoch11 | Train loss:0.0150 | Train acc:25.79 | Valid loss:0.0138 | Valid acc:30.87
+epoch12 | Train loss:0.0150 | Train acc:25.81 | Valid loss:0.0138 | Valid acc:31.07
+epoch13 | Train loss:0.0150 | Train acc:25.74 | Valid loss:0.0138 | Valid acc:31.29
+epoch14 | Train loss:0.0150 | Train acc:25.82 | Valid loss:0.0138 | Valid acc:31.14
+epoch15 | Train loss:0.0150 | Train acc:25.88 | Valid loss:0.0137 | Valid acc:31.29
+>>> Fine-tuning...
+>>> Start training... 
+epoch 1 | Train loss:0.0034 | Train acc:81.70 | Valid loss:0.0018 | Valid acc:89.99
+epoch 2 | Train loss:0.0016 | Train acc:91.42 | Valid loss:0.0014 | Valid acc:92.22
+epoch 3 | Train loss:0.0012 | Train acc:93.30 | Valid loss:0.0012 | Valid acc:93.44
+epoch 4 | Train loss:0.0010 | Train acc:94.20 | Valid loss:0.0012 | Valid acc:93.54
+epoch 5 | Train loss:0.0009 | Train acc:94.76 | Valid loss:0.0011 | Valid acc:93.81
+epoch 6 | Train loss:0.0009 | Train acc:95.10 | Valid loss:0.0011 | Valid acc:93.91
+epoch 7 | Train loss:0.0008 | Train acc:95.36 | Valid loss:0.0011 | Valid acc:94.24
+epoch 8 | Train loss:0.0008 | Train acc:95.59 | Valid loss:0.0010 | Valid acc:94.40
+epoch 9 | Train loss:0.0007 | Train acc:95.74 | Valid loss:0.0010 | Valid acc:94.47
+epoch10 | Train loss:0.0007 | Train acc:95.91 | Valid loss:0.0010 | Valid acc:94.59
+epoch11 | Train loss:0.0007 | Train acc:95.97 | Valid loss:0.0010 | Valid acc:94.42
+epoch12 | Train loss:0.0007 | Train acc:96.13 | Valid loss:0.0011 | Valid acc:94.27
+epoch13 | Train loss:0.0006 | Train acc:96.22 | Valid loss:0.0011 | Valid acc:94.33
+epoch14 | Train loss:0.0006 | Train acc:96.26 | Valid loss:0.0010 | Valid acc:94.69
+epoch15 | Train loss:0.0006 | Train acc:96.34 | Valid loss:0.0010 | Valid acc:94.32
+epoch16 | Train loss:0.0006 | Train acc:96.38 | Valid loss:0.0010 | Valid acc:94.79
+epoch17 | Train loss:0.0006 | Train acc:96.50 | Valid loss:0.0009 | Valid acc:94.88
+epoch18 | Train loss:0.0006 | Train acc:96.55 | Valid loss:0.0010 | Valid acc:94.55
+epoch19 | Train loss:0.0006 | Train acc:96.60 | Valid loss:0.0009 | Valid acc:94.99
+epoch20 | Train loss:0.0006 | Train acc:96.62 | Valid loss:0.0010 | Valid acc:94.95
+epoch21 | Train loss:0.0006 | Train acc:96.72 | Valid loss:0.0010 | Valid acc:94.62
+epoch22 | Train loss:0.0006 | Train acc:96.67 | Valid loss:0.0009 | Valid acc:94.92
+epoch23 | Train loss:0.0006 | Train acc:96.72 | Valid loss:0.0010 | Valid acc:94.84
+>> Found 581574 images for training ...
+
+>>> Start training... 
+>> Found 581574 images for training ...
+
+>>> Start training... 
+epoch24 | Train loss:0.0006 | Train acc:96.34 | Valid loss:0.0006 | Valid acc:96.34
+----------------------------------------------------------
+-                     Testing......                      -
+----------------------------------------------------------
+>> Found 10791 images for testning ...
+
+>> Prediction :
+          id           character
+0       3970        mayor_quimby
+1       6551      snake_jailbird
+2       4856        bart_simpson
+3      10194        nelson_muntz
+4       6818       homer_simpson
+...      ...                 ...
+10786  10132        troy_mcclure
+10787   9187           otto_mann
+10788  10381    kearney_zzyzwicz
+10789  10523       martin_prince
+10790   9258  rainier_wolfcastle
+
+[10791 rows x 2 columns]>> Found 581574 images for training ...
+
+>>> Start training... 
+epoch25 | Train loss:0.0006 | Train acc:96.47 | Valid loss:0.0006 | Valid acc:96.67
+epoch26 | Train loss:0.0006 | Train acc:96.67 | Valid loss:0.0007 | Valid acc:96.06
+>> Found 581574 images for training ...
+
+>>> Start training... 
+epoch27 | Train loss:0.0006 | Train acc:96.51 | Valid loss:0.0006 | Valid acc:96.76
+epoch28 | Train loss:0.0006 | Train acc:96.72 | Valid loss:0.0007 | Valid acc:96.14
+epoch29 | Train loss:0.0006 | Train acc:96.76 | Valid loss:0.0007 | Valid acc:95.81
+epoch30 | Train loss:0.0005 | Train acc:96.77 | Valid loss:0.0007 | Valid acc:95.96
+----------------------------------------------------------
+-                     Testing......                      -
+----------------------------------------------------------
+>> Found 10791 images for testning ...
+
+>> Prediction :
+          id           character
+0       3970        mayor_quimby
+1       6551      snake_jailbird
+2       4856        bart_simpson
+3      10194        nelson_muntz
+4       6818       homer_simpson
+...      ...                 ...
+10786  10132        troy_mcclure
+10787   9187           otto_mann
+10788  10381    kearney_zzyzwicz
+10789  10523       martin_prince
+10790   9258  rainier_wolfcastle
+
+[10791 rows x 2 columns]
