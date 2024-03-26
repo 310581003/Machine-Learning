@@ -22,6 +22,7 @@ File Discription
     - inference.ipynb : Code on Colab for inference.
     - run_sft.sh : Script to run.
 3. Result
+    - answer2000.csv : The prediction based on testing data (AI1000.json).
     - Due to the file size limitations on GitHub, you can access the combined model files via the provided cloud link: 
       [https://drive.google.com/drive/folders/1dwgqd7fX_-tPEZb0g2V6yN7822_YVd97?usp=drive_link](https://drive.google.com/drive/folders/1-1EiXeGqqoQJ0zDmZ1A5sCNMjNdMoAwM?usp=sharing)
   
