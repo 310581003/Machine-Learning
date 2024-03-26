@@ -1,1 +1,2 @@
-
+- trainer.py : Main code for training and testing.
+- trainer.ipynb : Main code on Colab for training and testing
