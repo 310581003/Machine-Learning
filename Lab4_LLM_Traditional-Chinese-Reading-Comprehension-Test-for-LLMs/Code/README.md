@@ -1,3 +1,4 @@
-- train.json : Training data.
-- valid.json : Validation data.
-- AI1000.json : Testing data.
+- trainer.py : Main code on Colab for training LoRA model.
+- convert_and_quantize_chinese_llama2_and_alpaca2.ipynb : Code on Colab for combining trained LoRA model and Chinese-Alpaca-2-13B traind by https://github.com/ymcui/Chinese-LLaMA-Alpaca-2.
+- inference.ipynb : Code on Colab for inference.
+- run_sft.sh : Script to run.
