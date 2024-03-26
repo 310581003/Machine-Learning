@@ -1,1 +1,7 @@
+。 test_prediction_best.csv : inferences for testing data
 
+。 Learning_curve_best.png : learning curve plot
+
+。 record_best.txt : including hyperparameter settings, training loss and validation loss for each epochs, best validation loss
+
+。 Saved_Model_best.pth : trained model
