@@ -1,5 +1,4 @@
 # Lab2_Simpsons-Characters-Recognition
-
 Goal
 -
 The main purpose of this experiment is to establish an image classifier for predicting and classifying processed images of characters from the following 50 episodes of The Simpsons series. Moreover, the competition is on Kaggle (https://www.kaggle.com/competitions/machine-learning-2023nycu-classification/overview).
