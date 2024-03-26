@@ -1,1 +1,3 @@
-
+- train.json : Training data.
+- valid.json : Validation data.
+- AI1000.json : Testing data.
