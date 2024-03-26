@@ -1,1 +1,3 @@
-
+- trainer.py : Main code for training and testing.
+- trainer.ipynb : Main code on Colab for training and testing.
+- data_augmentation.py : Code for data augmentation.
